@@ -10,6 +10,6 @@ jobs:
       - run: echo "Datos de rama ${{ github.ref }} de ${{github.repository}}"
       - name: Extraer código
         uses: actions/checkout@v2
-      - run: echo"El repositorio ha sido clonado al equipo"
+      - run: echo "El repositorio ha sido clonado al equipo"
       - name: Listar los archivos del repo
-      - run: ls ${{github.workspace}}
+        run: ls ${{github.workspace}}
