@@ -1,0 +1,8 @@
+# Le dice a GIT cuales archivos NO deben enviarse nunca al servidor
+# .gitignore
+
+# proyectos que usan NODE
+node_modules/
+
+# si es un proyecto c#
+build/
