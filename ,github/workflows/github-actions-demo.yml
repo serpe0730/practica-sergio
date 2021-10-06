@@ -1,2 +1,10 @@
-Yet Another Markup Languaje
+#Yet Another Markup Languaje, TAB para ingresar lineas de otro nivel
 name: Ejemplo de Acciones
+on: [push]
+jobs:
+  Primer-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Bienvenido a GitHub Actions"
+      - run: echo "ejecutando en ${{runner.os}}"
+      - run: echo "Datos de rama: ${{github.ref}} de ${{github.repository}}"
