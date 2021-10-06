@@ -1,0 +1,10 @@
+# Los cambios no se registran
+
+git status
+git add
+git log
+git push
+git pull
+git rm --cached nomArchivo.txt (borrar de la caché un archivo)
+
+cd. git
